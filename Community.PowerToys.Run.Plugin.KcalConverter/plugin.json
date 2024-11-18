@@ -1,0 +1,14 @@
+{
+  "ID": "2E63C5D0F56542BCA8137F6992F57200",
+  "ActionKeyword": "kj",
+  "IsGlobal": false,
+  "Name": "KcalConverter",
+  "Author": "grzhan",
+  "Version": "0.1.0",
+  "Language": "csharp",
+  "Website": "https://github.com/grzhan/Community.PowerToys.Run.Plugin.KcalConverter",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.KcalConverter.dll",
+  "IcoPathDark": "Images\\kcalconverter.dark.png",
+  "IcoPathLight": "Images\\kcalconverter.light.png",
+  "DynamicLoading": false
+}
