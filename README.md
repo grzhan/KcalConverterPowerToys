@@ -1,3 +1,3 @@
-# Community.PowerToys.Run.Plugin.KcalConverter
+# KcalConverterPowerToys
 
-A tool that converts kilojoules (kJ) to kilocalories (kcal).
+A PowerToy Run plugin that supports converting kilojoules (kJ) to kilocalories (kcal)
