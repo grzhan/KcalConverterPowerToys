@@ -63,7 +63,7 @@ namespace Community.PowerToys.Run.Plugin.KcalConverter
                     new Result
                     {
                         Title = $"{number} kJ = {resultStr} kcal",
-                        SubTitle = "Press Enter to copy the result to the clipboard",
+                        SubTitle = "将结果复制到剪贴板",
                         IcoPath = IconPath,
                         Action = _ =>
                         {
