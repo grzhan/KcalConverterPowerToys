@@ -6,7 +6,7 @@
   "Author": "grzhan",
   "Version": "0.1.0",
   "Language": "csharp",
-  "Website": "https://github.com/grzhan/Community.PowerToys.Run.Plugin.KcalConverter",
+  "Website": "https://github.com/grzhan/KcalConverterPowerToys",
   "ExecuteFileName": "Community.PowerToys.Run.Plugin.KcalConverter.dll",
   "IcoPathDark": "Images\\kcalconverter.dark.png",
   "IcoPathLight": "Images\\kcalconverter.light.png",
