@@ -42,14 +42,13 @@ namespace Community.PowerToys.Run.Plugin.KcalConverter
         public List<Result> Query(Query query)
         {
             ArgumentNullException.ThrowIfNull(query);
-            bool isGlobalQuery = string.IsNullOrEmpty(query.ActionKeyword);
+            var isGlobalQuery = string.IsNullOrEmpty(query.ActionKeyword);
             if (string.IsNullOrEmpty(query.Search) || isGlobalQuery)
             {
                 return [];
             }
 
-            decimal number;
-            bool success = Decimal.TryParse(query.Search, out number);
+            var success = decimal.TryParse(query.Search, out var number);
             if (!success)
             {
                 return ErrorHandler.OnError(IconPath, query.RawQuery, "Invalid number format");
@@ -57,7 +56,7 @@ namespace Community.PowerToys.Run.Plugin.KcalConverter
 
             try
             {
-                decimal result = number * 0.239006m;
+                var result = number * 0.239006m;
                 var resultStr = result.ToString("F2");
                 return [
                     new Result
@@ -77,7 +76,6 @@ namespace Community.PowerToys.Run.Plugin.KcalConverter
             {
                 return ErrorHandler.OnError(IconPath, query.RawQuery, errorMessage: e.Message, exception: e);
             }
-            
         }
 
         /// <summary>
